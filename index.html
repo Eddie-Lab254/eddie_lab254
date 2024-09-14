@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Edwin Njenga</h1>
+        <p>Junior Web Developer</p>
+    </header>
+     
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello!I'm a passionate junior web developer just beginning my coding journey, <br> with a focus on creating responsive and user-friendly websites. <br> My skilled language at the moment include HTML and CSS and I'm currently learning. <br>I enjoy problem-solving, learning new technologies, and bringing ideas to life through code. <br>  With a strong desire to grow, I’m constantly exploring new tools and working on a projects to sharpen my skills. <br> I’m excited to collaborate and contribute to meaningful web development projects!
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Programming Languages</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Educational Background</h2>
+        <p>Currently enrolled at Power Learn Project program</p>
+        <p>Diploma in Electrical and Electronic Engineering at<br> Rift Valley Institute of Science and Technology</p>
+        <a href="cv.pdf" download>Download My CV</a>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests">
+        <h2>Interests</h2>
+        <p>
+            In addition to coding, I enjoy gaming, playing basketball and learning about new technologies. <br>
+            I’m constantly seeking out opportunities to grow and learn in both personal and professional contexts.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Telemedicine Website</h3>
+            <p>My first project which is on progress is based on telemedicine </p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Edwin Njenga</p>
+    </footer>
+</body>
+</html>
